@@ -31,3 +31,13 @@ body {
 #something{
   background-color: black;
 }
+
+.grid-pic {
+  filter: grayscale(90%);
+  transition: 0.75s;
+}
+.grid-pic:hover {
+  filter: grayscale(0%);
+  transform: scale(1.2);
+  z-index: 1;
+}
